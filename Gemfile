@@ -17,7 +17,9 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem "nokogiri", ">= 1.10.8"
-gem "rack", ">= 2.0.8"
+gem "rack", ">= 2.2.3"
+gem "actionview", ">= 6.0.3.3"
+gem "actionpack", ">= 6.0.3.2"
 
 group :development do
   gem 'web-console', '>= 3.3.0'
